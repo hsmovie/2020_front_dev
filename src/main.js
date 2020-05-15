@@ -1,2 +1,3 @@
-const app = document.getElementById('app');
-console.log(app);
+import App from './App.js';
+
+new App(document.getElementById('app'));
